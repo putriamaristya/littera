@@ -1,38 +1,162 @@
-.App {
-  text-align: center;
+html,
+body {
+  height: calc(100vh);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-group {
+  display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button-width {
+  width: 80%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button-new {
+  width: 10%;
 }
 
-.App-link {
-  color: #61dafb;
+.button-2 {
+  width: 40%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.FHseYW {
+  height: 100%;
+  width: 100%;
+}
+
+.BaYsa {
+  height: 100%;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  grid-column-gap: 20px;
+}
+
+.edit-delete {
+  height: 20px;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.BaYsc {
+  height: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10fr 2fr;
+  grid-column-gap: 5px;
+}
+
+.button-group {
+  background-color: grey;
+  height: 100%;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px 5px 5px 5px;
+  background-color: white;
+}
+
+.button-remove {
+  background-color: grey;
+  height: 100%;
+  width: 20px;
+  border: 1px solid grey;
+  border-radius: 5px 5px 5px 5px;
+  background-color: white;
+}
+
+.cRDmY {
+  height: 100%;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+}
+
+.group-card2 {
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+  border: 1px solid grey;
+  border-radius: 5px 5px 5px 5px;
+  background-color: white;
+  grid-column-gap: 20px;
+}
+
+.group-card {
+  height: 100%;
+  width: 20px;
+  border: 1px solid grey;
+  border-radius: 5px 5px 5px 5px;
+  background-color: white;
+  grid-column-gap: 20px;
+}
+
+.line-horizontal {
+  width: 80%;
+  background-color: #284b63;
+}
+
+.line-horizontal2 {
+  width: 96%;
+  background-color: #284b63;
+}
+
+.my-card {
+  border: 1px solid grey;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+}
+
+.wrapper {
+  height: 100vh;
+  background-color: red;
+}
+
+.main-content {
+  height: 100%;
+  border: 2px;
+  border-radius: 30px 0px 0px 30px;
+  background-color: whitesmoke;
+}
+
+.Apps {
+  height: calc(100vh);
+  display: grid;
+  grid-template-columns: 1fr 15fr;
+  background-color: white;
+}
+
+.full-height {
+  height: 100%;
+  width: 100%;
+}
+
+.side-bar {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 11fr;
+}
+
+.bottom-main {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2.5fr 9.5fr;
+  grid-column-gap: 10px;
+}
+
+.nav-bar {
+  height: vh;
+  width: %;
+  //background-color: burlywood;
 }

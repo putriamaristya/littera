@@ -1,0 +1,22 @@
+$primary: #284b63 !default;
+$secondary: #d9d9d9 !default;
+$warning: #ffb423 !default;
+$light: #3c6e71 !default;
+$dark: #353535 !default;
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@500&display=swap');
+
+$font-family-sans-serif: 'Karla', sans-serif !default;
+$font-family-monospace: 'Montserrat', sans-serif !default;
+
+$font-size-base: 0.8rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg: $font-size-base * 1.25 !default;
+$font-size-sm: $font-size-base * 0.875 !default;
+
+$spacer: 0.8rem !default;
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 0px !default;
+$grid-row-columns: 6 !default;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
